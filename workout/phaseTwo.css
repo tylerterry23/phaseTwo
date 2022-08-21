@@ -1,0 +1,151 @@
+/* ------- Full Page ------- */
+
+/* disallow page to overflow on x axis */
+html {
+   overflow-x: hidden;
+}
+
+.container-adj {
+   width: 95%;
+   margin: auto;
+}
+
+
+
+/* ------- Header ------- */
+h1 { 
+   font-size: 3em; 
+   font-weight: bold; 
+   margin-top: 0;
+}
+
+
+
+#logoRow {
+   display: flex;
+   justify-content: center;
+}
+
+#topHeaderRow {
+  padding-right: -1em;
+   padding-left: -1em;
+}
+
+.price { 
+   font-weight: bold;
+   color: black;
+   font-size: 1.5em;
+   text-decoration: underline;
+}
+
+
+
+
+
+/* middle col */
+.midColButtons {
+   border-style: solid;
+   border: solid gray;
+   border-width: .05em;
+   margin-left: -.2em;
+}
+
+.table {
+   border-collapse: collapse;
+   border: .009em solid gray;
+}
+
+.similarTitle { 
+   font-weight: bold;
+ }
+
+.cartText { 
+   font-size: .8em;
+}
+
+.tight-form-group { 
+   margin-top: 6.5em;
+   margin-left: -2em;
+}
+
+/* side panel */
+.list-group-item {
+   border: 0;
+   padding-top: 1em;
+   padding-bottom: 1em;
+}
+
+.panelBody {
+   float: left;
+}
+
+.formHorizontal {
+   margin-bottom: .5em;
+}
+
+/* Similar Products */
+.similar {
+   margin-top: -8em;
+   margin-right: 1em;
+   margin-left: 2em;
+   border-style: solid;
+   border-color: gray;
+   border-width: .009em;
+   padding: 1em;
+}
+
+.similar img {
+   padding: .3em;
+   border: solid gray;
+   border-width: .009em;
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+
+/* Footer */
+.custServList{
+   padding-bottom: 2em;
+}
+
+.footerSpaced li{
+   padding-top: 1em;
+   padding-bottom: 1em;
+}
+
+footer {
+   margin-top: 1em;
+   background-color: #E7E7E7;
+}
+
+footer .row{
+   margin-left: 1.5em;
+   margin-right: 1.5em;
+}
+
+footer img {
+   float: left;
+   margin-right: 1em;
+}
+
+footer p em {
+   float: right;
+}
+
+footer .box {
+   margin-top: 2em;
+   margin-bottom: 2em;
+}
+
+
+/* End Footer */
+
+#copyrightRow { 
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #3A3A3A; 
+    color: gray;
+}
+

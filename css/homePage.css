@@ -1,0 +1,65 @@
+h2 {
+    color: #1a1a1a;
+}
+
+
+
+.progress {
+background-color: #999999;
+-webkit-box-shadow: none ;
+box-shadow: none ;
+}
+
+/* progress bar phaseTwo theme 1 */
+.progress-bar-phaseTwo {
+background-color: orange;
+}
+
+/* progress bar phaseTwo theme 2 */
+.progress-bar-phaseTwo2 {
+background-image: linear-gradient(to right, orange, #ee7752, #e73c7e, #23a6d5, #23d5ab) !important;
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+
+/* progress bar phaseTwo theme 3 */
+.progress-bar-phaseTwo3 {
+background-image: linear-gradient(to right, orange, #ee7752, #e73c7e, #23a6d5, #23d5ab) !important;
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+/* progress bar phaseTwo theme 4 */
+.progress-bar-phaseTwo4 {
+background-image: linear-gradient(to right, orange, #ee7752, #e73c7e, #23a6d5, #23d5ab) !important;
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+#weightChartDisplay {
+   padding: 3em;
+   padding-bottom: -3em;
+}
+
+#calBar {
+   /* center */
+   margin-left: auto;
+   margin-right: auto;
+   /* end center */
+   font-size: 2em;
+}
