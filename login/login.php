@@ -63,13 +63,7 @@
 
 
 <!-- Body -->
-<body>
-
-    <!-- center container -->
-    
-
-
-    
+<body>    
 
     <!-- Login / Register -->
     <div class="panel panel-default" id="options" style="display: block">
@@ -82,7 +76,7 @@
 
             <form>
                 <input name="login" type="button" class="btn btn-lg btn-outline-dark" value="Login" onclick="displayLogin();"></>
-                <input href="phaseTwo.php" type="button" class="btn btn-lg btn-outline-dark" value="Register"></>
+                <button type="button" class="btn btn-lg btn-outline-dark"><a href="registration.php">Register</a></button>
             </form>
         </div>
     </div>
